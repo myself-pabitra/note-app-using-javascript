@@ -43,7 +43,7 @@ function showNotes() {
   if (notesObj.length !== 0) {
     notesElm.innerHTML = html;
   } else {
-    notesElm.innerHTML = `Nothing to show here. Please add a notre from above Add note section to show.`;
+    notesElm.innerHTML = `<h4 class =" text-center text-danger"> Nothing to show here. Please add a notre from above Add note section to show. </h4>`;
   }
 }
 
